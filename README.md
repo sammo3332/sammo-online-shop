@@ -17,3 +17,27 @@ Produktdetails: Benutzer können auf ein Produkt klicken, um weitere Details zu 
 Kategoriebasierte Filterung: Benutzer können Produkte nach Kategorien durchsuchen (Laptops, Smartphones, Hot Deals usw.).
 CRUD-Operationen (Backend): Für Produktverwaltung, Benutzerregistrierung und Bestellungen.
 JWT-basierte Authentifizierung: Sichere Benutzeranmeldung und -registrierung.
+## Installation
+Um das Projekt lokal zu starten, folge diesen einfachen Schritten:
+
+Repository klonen:
+git clone https://github.com/sammo3332/sammo-online-shop.git
+Backend und Frontend installieren: Installiere die benötigten Abhängigkeiten im Backend und Frontend:
+
+
+cd backend
+npm install
+cd frontend
+npm install
+Umgebungsvariablen anlegen: Erstelle im Backend-Ordner eine .env-Datei mit folgenden Angaben:
+
+MONGO_URI=deine_mongodb_verbindung
+JWT_SECRET=dein_geheimes_token
+PORT=5000
+Server starten:
+
+
+cd backend
+npm run dev
+Das war es!
+Jetzt sollte die Anwendung  unter http://localhost:3000 laufen.
